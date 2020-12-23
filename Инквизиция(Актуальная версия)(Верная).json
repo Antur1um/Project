@@ -303,15 +303,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "hero.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "hero.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "Right.png",
         "kind": "image",
         "metadata": "",
@@ -379,33 +370,6 @@
         "kind": "image",
         "metadata": "",
         "name": "hero_attack_3.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "hero_down_attack.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "hero_down_attack.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "hero_down_attack2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "hero_down_attack2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "hero_down_attack3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "hero_down_attack3.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -513,24 +477,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "Stay Right.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Stay Right.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Stay Down.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Stay Down.png",
-        "smoothed": true,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "Stay Left.png",
         "kind": "image",
         "metadata": "",
@@ -591,60 +537,6 @@
         "name": "Walk_Left.png",
         "smoothed": true,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Attack_Right_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Attack_Right_1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Attack_Right_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Attack_Right_2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Attack_Right_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Attack_Right_3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Attack_Down_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Attack_Down_1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Attack_Down_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Attack_Down_2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "Attack_Down_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Attack_Down_3.png",
-        "smoothed": true,
-        "userAdded": false
       },
       {
         "alwaysLoaded": false,
@@ -1897,6 +1789,159 @@
         "name": "Hitbox-1-0.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "AttackUp-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AttackUp-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "AttackUp-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AttackUp-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "AttackUp-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "AttackUp-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Attack_Down_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Attack_Down_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Stay Down.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Stay Down.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject3-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject3-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject3-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject3-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "hero_down_attack.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hero_down_attack.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "hero_down_attack2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hero_down_attack2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "hero_down_attack3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hero_down_attack3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Attack_Down_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Attack_Down_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Attack_Down_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Attack_Down_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Attack_Right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Attack_Right_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Attack_Right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Attack_Right_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Attack_Right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Attack_Right_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Stay Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Stay Right.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "hero.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "hero.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2872,7 +2917,7 @@
         "gridWidth": 32,
         "snap": false,
         "windowMask": false,
-        "zoomFactor": 0.16
+        "zoomFactor": 0.1
       },
       "objectsGroups": [],
       "variables": [],
@@ -23478,8 +23523,8 @@
           "name": "Hitbox",
           "persistentUuid": "8ed56921-c0b5-44a2-aa10-b06a96a45e5f",
           "width": 0,
-          "x": 506,
-          "y": 278,
+          "x": -1419,
+          "y": -162,
           "zOrder": 1339,
           "numberProperties": [],
           "stringProperties": [],
@@ -23530,7 +23575,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "ZStay_Up.png",
                       "points": [],
                       "originPoint": {
@@ -23544,7 +23589,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10.8,
+                            "y": 8.40001
+                          },
+                          {
+                            "x": 20.4,
+                            "y": 6.8
+                          },
+                          {
+                            "x": 18.8,
+                            "y": 25.2
+                          },
+                          {
+                            "x": 12.4,
+                            "y": 25.2
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -23559,7 +23623,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "ZStay_Right.png",
                       "points": [],
                       "originPoint": {
@@ -23573,7 +23637,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10.8,
+                            "y": 8.40001
+                          },
+                          {
+                            "x": 20.4,
+                            "y": 6.8
+                          },
+                          {
+                            "x": 18.8,
+                            "y": 25.2
+                          },
+                          {
+                            "x": 12.4,
+                            "y": 25.2
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -23588,7 +23671,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "ZStay_Down.png",
                       "points": [],
                       "originPoint": {
@@ -23602,7 +23685,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10.8,
+                            "y": 8.40001
+                          },
+                          {
+                            "x": 20.4,
+                            "y": 6.8
+                          },
+                          {
+                            "x": 18.8,
+                            "y": 25.2
+                          },
+                          {
+                            "x": 12.4,
+                            "y": 25.2
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -23617,7 +23719,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "ZStay_Left.png",
                       "points": [],
                       "originPoint": {
@@ -23631,7 +23733,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10.8,
+                            "y": 8.40001
+                          },
+                          {
+                            "x": 20.4,
+                            "y": 6.8
+                          },
+                          {
+                            "x": 18.8,
+                            "y": 25.2
+                          },
+                          {
+                            "x": 12.4,
+                            "y": 25.2
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -23646,7 +23767,7 @@
                   "timeBetweenFrames": 0.1429,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "zombie_UP_ATTACK.png",
                       "points": [],
                       "originPoint": {
@@ -23660,10 +23781,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10.8,
+                            "y": 8.40001
+                          },
+                          {
+                            "x": 20.4,
+                            "y": 6.8
+                          },
+                          {
+                            "x": 18.8,
+                            "y": 25.2
+                          },
+                          {
+                            "x": 12.4,
+                            "y": 25.2
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "zombie_UP_ATTACK1.png",
                       "points": [],
                       "originPoint": {
@@ -23677,7 +23817,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10.8,
+                            "y": 8.40001
+                          },
+                          {
+                            "x": 20.4,
+                            "y": 6.8
+                          },
+                          {
+                            "x": 18.8,
+                            "y": 25.2
+                          },
+                          {
+                            "x": 12.4,
+                            "y": 25.2
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -23692,7 +23851,7 @@
                   "timeBetweenFrames": 0.14,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "zombie_H_ATTACK.png",
                       "points": [],
                       "originPoint": {
@@ -23706,10 +23865,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3.125,
+                            "y": 6.625
+                          },
+                          {
+                            "x": 10.625,
+                            "y": 6.375
+                          },
+                          {
+                            "x": 13.625,
+                            "y": 24.625
+                          },
+                          {
+                            "x": 4.87501,
+                            "y": 25.375
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "zombie_H_ATTACK2.png",
                       "points": [],
                       "originPoint": {
@@ -23723,7 +23901,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3.125,
+                            "y": 6.625
+                          },
+                          {
+                            "x": 10.625,
+                            "y": 6.375
+                          },
+                          {
+                            "x": 13.625,
+                            "y": 24.625
+                          },
+                          {
+                            "x": 4.87501,
+                            "y": 25.375
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -23738,7 +23935,7 @@
                   "timeBetweenFrames": 0.1429,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "zombie_DOWN_ATTACK.png",
                       "points": [],
                       "originPoint": {
@@ -23752,10 +23949,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10.8,
+                            "y": 8.40001
+                          },
+                          {
+                            "x": 20.4,
+                            "y": 6.8
+                          },
+                          {
+                            "x": 18.8,
+                            "y": 25.2
+                          },
+                          {
+                            "x": 12.4,
+                            "y": 25.2
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "zombie_DOWN_ATTACK2.png",
                       "points": [],
                       "originPoint": {
@@ -23769,7 +23985,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10.8,
+                            "y": 8.40001
+                          },
+                          {
+                            "x": 20.4,
+                            "y": 6.8
+                          },
+                          {
+                            "x": 18.8,
+                            "y": 25.2
+                          },
+                          {
+                            "x": 12.4,
+                            "y": 25.2
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -23784,7 +24019,7 @@
                   "timeBetweenFrames": 0.14,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "ZAttack_Left(1).png",
                       "points": [],
                       "originPoint": {
@@ -23798,10 +24033,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20.625,
+                            "y": 6.375
+                          },
+                          {
+                            "x": 30.375,
+                            "y": 5.875
+                          },
+                          {
+                            "x": 27.375,
+                            "y": 25.625
+                          },
+                          {
+                            "x": 21.125,
+                            "y": 23.875
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "ZAttack_Left(2).png",
                       "points": [],
                       "originPoint": {
@@ -23815,7 +24069,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 20.625,
+                            "y": 6.375
+                          },
+                          {
+                            "x": 30.375,
+                            "y": 5.875
+                          },
+                          {
+                            "x": 27.375,
+                            "y": 25.625
+                          },
+                          {
+                            "x": 21.125,
+                            "y": 23.875
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -23830,7 +24103,7 @@
                   "timeBetweenFrames": 0.14,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "zombie_UP3.png",
                       "points": [],
                       "originPoint": {
@@ -23844,10 +24117,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10.8,
+                            "y": 8.40001
+                          },
+                          {
+                            "x": 20.4,
+                            "y": 6.8
+                          },
+                          {
+                            "x": 18.8,
+                            "y": 25.2
+                          },
+                          {
+                            "x": 12.4,
+                            "y": 25.2
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "ZStay_Up.png",
                       "points": [],
                       "originPoint": {
@@ -23861,10 +24153,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10.8,
+                            "y": 8.40001
+                          },
+                          {
+                            "x": 20.4,
+                            "y": 6.8
+                          },
+                          {
+                            "x": 18.8,
+                            "y": 25.2
+                          },
+                          {
+                            "x": 12.4,
+                            "y": 25.2
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "zombie_UP2.png",
                       "points": [],
                       "originPoint": {
@@ -23878,7 +24189,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10.8,
+                            "y": 8.40001
+                          },
+                          {
+                            "x": 20.4,
+                            "y": 6.8
+                          },
+                          {
+                            "x": 18.8,
+                            "y": 25.2
+                          },
+                          {
+                            "x": 12.4,
+                            "y": 25.2
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -23893,7 +24223,7 @@
                   "timeBetweenFrames": 0.14,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "zombie_H2.png",
                       "points": [],
                       "originPoint": {
@@ -23907,10 +24237,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10.8,
+                            "y": 8.40001
+                          },
+                          {
+                            "x": 20.4,
+                            "y": 6.8
+                          },
+                          {
+                            "x": 18.8,
+                            "y": 25.2
+                          },
+                          {
+                            "x": 12.4,
+                            "y": 25.2
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "ZStay_Right.png",
                       "points": [],
                       "originPoint": {
@@ -23924,7 +24273,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10.8,
+                            "y": 8.40001
+                          },
+                          {
+                            "x": 20.4,
+                            "y": 6.8
+                          },
+                          {
+                            "x": 18.8,
+                            "y": 25.2
+                          },
+                          {
+                            "x": 12.4,
+                            "y": 25.2
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -23939,7 +24307,7 @@
                   "timeBetweenFrames": 0.14,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "zombie_DOWN3.png",
                       "points": [],
                       "originPoint": {
@@ -23953,10 +24321,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10.8,
+                            "y": 8.40001
+                          },
+                          {
+                            "x": 20.4,
+                            "y": 6.8
+                          },
+                          {
+                            "x": 18.8,
+                            "y": 25.2
+                          },
+                          {
+                            "x": 12.4,
+                            "y": 25.2
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "ZStay_Down.png",
                       "points": [],
                       "originPoint": {
@@ -23970,10 +24357,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10.8,
+                            "y": 8.40001
+                          },
+                          {
+                            "x": 20.4,
+                            "y": 6.8
+                          },
+                          {
+                            "x": 18.8,
+                            "y": 25.2
+                          },
+                          {
+                            "x": 12.4,
+                            "y": 25.2
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "zombie_DOWN2.png",
                       "points": [],
                       "originPoint": {
@@ -23987,7 +24393,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10.8,
+                            "y": 8.40001
+                          },
+                          {
+                            "x": 20.4,
+                            "y": 6.8
+                          },
+                          {
+                            "x": 18.8,
+                            "y": 25.2
+                          },
+                          {
+                            "x": 12.4,
+                            "y": 25.2
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -24002,7 +24427,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "ZStay_Left.png",
                       "points": [],
                       "originPoint": {
@@ -24016,10 +24441,29 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10.8,
+                            "y": 8.40001
+                          },
+                          {
+                            "x": 20.4,
+                            "y": 6.8
+                          },
+                          {
+                            "x": 18.8,
+                            "y": 25.2
+                          },
+                          {
+                            "x": 12.4,
+                            "y": 25.2
+                          }
+                        ]
+                      ]
                     },
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "ZWalk_Left.png",
                       "points": [],
                       "originPoint": {
@@ -24033,7 +24477,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10.8,
+                            "y": 8.40001
+                          },
+                          {
+                            "x": 20.4,
+                            "y": 6.8
+                          },
+                          {
+                            "x": 18.8,
+                            "y": 25.2
+                          },
+                          {
+                            "x": 12.4,
+                            "y": 25.2
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -24054,10 +24517,10 @@
           ],
           "behaviors": [
             {
+              "acceleration": 90000,
+              "deceleration": 9999,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-              "acceleration": 150,
-              "deceleration": 100000000000000000,
               "allowDiagonals": false,
               "angleOffset": 0,
               "angularMaxSpeed": 180,
@@ -24724,16 +25187,16 @@
               ]
             },
             {
-              "name": " Attack Up",
+              "name": "AttackUp",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.195,
+                  "timeBetweenFrames": 0.1,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Attack_Up_1.png",
+                      "image": "AttackUp-1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -24773,7 +25236,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Attack_Up_2.png",
+                      "image": "AttackUp-2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -24813,7 +25276,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Stay up.png",
+                      "image": "AttackUp-3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -24856,12 +25319,12 @@
               ]
             },
             {
-              "name": "Attack Right",
+              "name": "AttackRight",
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": true,
-                  "timeBetweenFrames": 0.105,
+                  "looping": false,
+                  "timeBetweenFrames": 0.1,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -25022,22 +25485,10 @@
                           }
                         ]
                       ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Attack Down",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.105,
-                  "sprites": [
+                    },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Attack_Down_1.png",
+                      "image": "hero.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -25053,30 +25504,93 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 21.36,
-                            "y": 2.88
-                          },
-                          {
-                            "x": 19.76,
-                            "y": 22.08
-                          },
-                          {
                             "x": 13.2,
-                            "y": 18.88
+                            "y": 6.4
                           },
                           {
-                            "x": 8.88001,
-                            "y": 2.56
+                            "x": 11.28,
+                            "y": 26.08
                           },
                           {
-                            "x": 15.28,
-                            "y": 0.480001
+                            "x": 3.76,
+                            "y": 25.6
+                          },
+                          {
+                            "x": 3.6,
+                            "y": 6.88
+                          },
+                          {
+                            "x": 8.08001,
+                            "y": 6.4
                           }
                         ]
                       ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "AttackDown",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "hero_down_attack.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
                     },
                     {
-                      "hasCustomCollisionMask": true,
+                      "hasCustomCollisionMask": false,
+                      "image": "hero_down_attack2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "hero_down_attack3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
                       "image": "Attack_Down_2.png",
                       "points": [],
                       "originPoint": {
@@ -25090,33 +25604,10 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 21.36,
-                            "y": 2.88
-                          },
-                          {
-                            "x": 19.76,
-                            "y": 22.08
-                          },
-                          {
-                            "x": 13.2,
-                            "y": 18.88
-                          },
-                          {
-                            "x": 8.88001,
-                            "y": 2.56
-                          },
-                          {
-                            "x": 15.28,
-                            "y": 0.480001
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     },
                     {
-                      "hasCustomCollisionMask": true,
+                      "hasCustomCollisionMask": false,
                       "image": "Attack_Down_3.png",
                       "points": [],
                       "originPoint": {
@@ -25130,70 +25621,7 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 21.36,
-                            "y": 2.88
-                          },
-                          {
-                            "x": 19.76,
-                            "y": 22.08
-                          },
-                          {
-                            "x": 13.2,
-                            "y": 18.88
-                          },
-                          {
-                            "x": 8.88001,
-                            "y": 2.56
-                          },
-                          {
-                            "x": 15.28,
-                            "y": 0.480001
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Stay Down.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 21.36,
-                            "y": 2.88
-                          },
-                          {
-                            "x": 19.76,
-                            "y": 22.08
-                          },
-                          {
-                            "x": 13.2,
-                            "y": 18.88
-                          },
-                          {
-                            "x": 8.88001,
-                            "y": 2.56
-                          },
-                          {
-                            "x": 15.28,
-                            "y": 0.480001
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -25204,8 +25632,8 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": true,
-                  "timeBetweenFrames": 0.105,
+                  "looping": false,
+                  "timeBetweenFrames": 0.1,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -27886,6 +28314,7 @@
           "variables": [],
           "behaviors": [
             {
+              "ignoreDefaultControls": true,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
               "acceleration": 400,
@@ -27893,7 +28322,6 @@
               "angleOffset": 0,
               "angularMaxSpeed": 180,
               "deceleration": 800,
-              "ignoreDefaultControls": false,
               "maxSpeed": 200,
               "rotateObject": false
             }
@@ -28089,6 +28517,84 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Bullet",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewObject3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.11,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject3-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewObject3-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Player2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "acceleration": 1e+24,
+              "allowDiagonals": false,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "deceleration": 800,
+              "ignoreDefaultControls": true,
+              "maxSpeed": 200,
+              "name": "TopDownMovement",
+              "rotateObject": false,
+              "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+            }
+          ],
+          "animations": []
         }
       ],
       "events": [
@@ -28098,7 +28604,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": false,
+          "folded": true,
           "name": "Player",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -28135,8 +28641,26 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Hitbox"
+                  ],
+                  "subInstructions": []
                 }
               ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [],
               "events": []
             },
             {
@@ -28682,6 +29206,14 @@
                     "Up"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -28705,7 +29237,7 @@
                   "parameters": [
                     "Hitbox",
                     "Player",
-                    "50",
+                    "30",
                     "270"
                   ],
                   "subInstructions": []
@@ -28785,6 +29317,14 @@
                     "",
                     "Left"
                   ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -28889,6 +29429,14 @@
                     "Right"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
+                  "subInstructions": []
                 }
               ],
               "actions": [
@@ -28991,6 +29539,14 @@
                     "",
                     "Down"
                   ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": [],
                   "subInstructions": []
                 }
               ],
@@ -30563,7 +31119,7 @@
           "colorR": 74,
           "creationTime": 0,
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "name": "Heal",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -30793,32 +31349,6 @@
               "events": []
             },
             {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "disabled": false,
-              "folded": false,
-              "name": "",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [],
-              "parameters": []
-            },
-            {
-              "colorB": 228,
-              "colorG": 176,
-              "colorR": 74,
-              "creationTime": 0,
-              "disabled": false,
-              "folded": false,
-              "name": "",
-              "source": "",
-              "type": "BuiltinCommonInstructions::Group",
-              "events": [],
-              "parameters": []
-            },
-            {
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
@@ -30878,9 +31408,97 @@
               "disabled": false,
               "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [],
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "MasterSword",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "MasterSword",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
               "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Bullet",
+                    "Player.X()",
+                    "Player.Y()",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "disabled": false,
+              "folded": false,
+              "name": "",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [],
+              "parameters": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "disabled": false,
+              "folded": false,
+              "name": "",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [],
+              "parameters": []
             }
           ],
           "parameters": []
