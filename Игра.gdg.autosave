@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project firstLayout="">
+    <gdVersion build="97" major="4" minor="0" revision="0" />
+    <properties folderProject="false" linuxExecutableFilename="" macExecutableFilename="" orientation="landscape" packageName="com.example.gamename" projectFile="C:\ProjectGame\Project\Game\Игра.json" useExternalSourceFiles="false" winExecutableFilename="" winExecutableIconFile="">
+        <name>Project</name>
+        <author></author>
+        <windowWidth>800</windowWidth>
+        <windowHeight>600</windowHeight>
+        <latestCompilationDirectory></latestCompilationDirectory>
+        <maxFPS>60</maxFPS>
+        <minFPS>20</minFPS>
+        <verticalSync>false</verticalSync>
+        <platformSpecificAssets />
+        <loadingScreen showGDevelopSplash="false" />
+        <extensions>
+            <extension name="BuiltinObject" />
+            <extension name="BuiltinAudio" />
+            <extension name="BuiltinVariables" />
+            <extension name="BuiltinTime" />
+            <extension name="BuiltinMouse" />
+            <extension name="BuiltinKeyboard" />
+            <extension name="BuiltinJoystick" />
+            <extension name="BuiltinCamera" />
+            <extension name="BuiltinWindow" />
+            <extension name="BuiltinFile" />
+            <extension name="BuiltinNetwork" />
+            <extension name="BuiltinScene" />
+            <extension name="BuiltinAdvanced" />
+            <extension name="Sprite" />
+            <extension name="BuiltinCommonInstructions" />
+            <extension name="BuiltinCommonConversions" />
+            <extension name="BuiltinStringInstructions" />
+            <extension name="BuiltinMathematicalTools" />
+            <extension name="BuiltinExternalLayouts" />
+        </extensions>
+        <platforms>
+            <platform name="GDevelop JS platform" />
+        </platforms>
+        <currentPlatform>GDevelop JS platform</currentPlatform>
+    </properties>
+    <resources>
+        <resources>
+            <resource alwaysLoaded="false" file="bg10.jpg" kind="image" name="bg10.jpg" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="Новая история.png" kind="image" name="Новая история.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="Новый выход.png" kind="image" name="Новый выход.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="НовыйИграть.png" kind="image" name="НовыйИграть.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="back.png" kind="image" name="back.png" smoothed="true" userAdded="true" />
+            <resource kind="" name="19888.ttf" />
+            <resource kind="" name="19783.ttf" />
+        </resources>
+        <resourceFolders />
+    </resources>
+    <objects />
+    <objectsGroups />
+    <variables />
+    <layouts>
+        <layout b="209" disableInputWhenNotFocused="true" mangledName="Main_32menu" name="Main menu" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="209" standardSortMethod="true" stopSoundsOnStartup="true" title="" v="209">
+            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="false" zoomFactor="0.820000" />
+            <objectsGroups />
+            <variables />
+            <instances>
+                <instance angle="0.000000" customSize="true" height="600.000000" layer="" locked="false" name="Background" width="800.000000" x="0.000000" y="0.000000" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="History" width="0.000000" x="25.000000" y="490.000000" zOrder="2">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="Exit" width="0.000000" x="575.000000" y="490.000000" zOrder="3">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="64.000000" layer="" locked="false" name="Play" width="192.000000" x="302.000000" y="256.000000" zOrder="4">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="139.000000" layer="" locked="false" name="Name" width="792.000000" x="9.000000" y="24.000000" zOrder="5">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+            </instances>
+            <objects>
+                <object bottomMargin="0.000000" height="600.000000" leftMargin="0.000000" name="Background" rightMargin="0.000000" texture="bg10.jpg" tiled="true" topMargin="0.000000" type="PanelSpriteObject::PanelSprite" width="800.000000">
+                    <variables />
+                    <behaviors>
+                        <behavior bottomEdgeAnchor="0" leftEdgeAnchor="0" name="Anchor" relativeToOriginalWindowSize="true" rightEdgeAnchor="0" topEdgeAnchor="0" type="AnchorBehavior::AnchorBehavior" />
+                    </behaviors>
+                </object>
+                <object name="History" type="Sprite" updateIfNotVisible="false">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="0.080000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="Новая история.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="104.000000" y="34.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="208.000000" y="0.000000" />
+                                                    <vertice x="208.000000" y="69.000000" />
+                                                    <vertice x="0.000000" y="69.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="Exit" type="Sprite" updateIfNotVisible="false">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="0.080000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="Новый выход.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="104.000000" y="34.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="208.000000" y="0.000000" />
+                                                    <vertice x="208.000000" y="69.000000" />
+                                                    <vertice x="0.000000" y="69.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="Play" type="Sprite" updateIfNotVisible="false">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="0.080000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="НовыйИграть.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="100.500000" y="31.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="201.000000" y="0.000000" />
+                                                    <vertice x="201.000000" y="62.000000" />
+                                                    <vertice x="0.000000" y="62.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object name="Start" type="Sprite" updateIfNotVisible="false">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="0.080000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="НовыйИграть.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="100.500000" y="31.000000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="201.000000" y="0.000000" />
+                                                    <vertice x="201.000000" y="62.000000" />
+                                                    <vertice x="0.000000" y="62.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+                <object bold="true" italic="false" name="Name" smoothed="true" type="TextObject::Text" underlined="false">
+                    <variables />
+                    <behaviors />
+                    <string>Инквизиция такого не прощает...</string>
+                    <font>19888.ttf</font>
+                    <characterSize>45</characterSize>
+                    <color b="255" g="255" r="255" />
+                </object>
+            </objects>
+            <events>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <instruction>
+                            <type inverted="false" value="SourisSurObjet" />
+                            <parameters>
+                                <parameter>History</parameter>
+                                <parameter>&lt;</parameter>
+                                <parameter>yes</parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subInstructions />
+                        </instruction>
+                        <instruction>
+                            <type inverted="false" value="SourisBouton" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>Left</parameter>
+                            </parameters>
+                            <subInstructions />
+                        </instruction>
+                    </conditions>
+                    <actions>
+                        <instruction>
+                            <type inverted="false" value="PushScene" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>&quot;Plot&quot;</parameter>
+                            </parameters>
+                            <subInstructions />
+                        </instruction>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <instruction>
+                            <type inverted="false" value="SourisSurObjet" />
+                            <parameters>
+                                <parameter>Exit</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subInstructions />
+                        </instruction>
+                        <instruction>
+                            <type inverted="false" value="SourisBouton" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>Left</parameter>
+                            </parameters>
+                            <subInstructions />
+                        </instruction>
+                    </conditions>
+                    <actions>
+                        <instruction>
+                            <type inverted="false" value="Quit" />
+                            <parameters>
+                                <parameter></parameter>
+                            </parameters>
+                            <subInstructions />
+                        </instruction>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <instruction>
+                            <type inverted="false" value="SourisSurObjet" />
+                            <parameters>
+                                <parameter>Play</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subInstructions />
+                        </instruction>
+                        <instruction>
+                            <type inverted="false" value="SourisBouton" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>Left</parameter>
+                            </parameters>
+                            <subInstructions />
+                        </instruction>
+                    </conditions>
+                    <actions>
+                        <instruction>
+                            <type inverted="false" value="Scene" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>&quot;Gameplay&quot;</parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subInstructions />
+                        </instruction>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions />
+                    <actions />
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <instruction>
+                            <type inverted="false" value="TimeScale" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>=</parameter>
+                                <parameter>1</parameter>
+                            </parameters>
+                            <subInstructions />
+                        </instruction>
+                    </conditions>
+                    <actions>
+                        <instruction>
+                            <type inverted="false" value="TextObject::SetGradient" />
+                            <parameters>
+                                <parameter>Name</parameter>
+                                <parameter>&quot;LINEAR_VERTICAL&quot;</parameter>
+                                <parameter>&quot;248;27;27&quot;</parameter>
+                                <parameter>&quot;131;26;26&quot;</parameter>
+                                <parameter>&quot;145;48;54&quot;</parameter>
+                                <parameter>&quot;156;45;45&quot;</parameter>
+                            </parameters>
+                            <subInstructions />
+                        </instruction>
+                    </actions>
+                    <events />
+                </event>
+            </events>
+            <layers>
+                <layer name="" visibility="true">
+                    <cameras>
+                        <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
+                    </cameras>
+                    <effects />
+                </layer>
+            </layers>
+            <behaviorsSharedData>
+                <behaviorSharedData name="Anchor" type="AnchorBehavior::AnchorBehavior" />
+            </behaviorsSharedData>
+        </layout>
+        <layout b="209" disableInputWhenNotFocused="true" mangledName="Plot" name="Plot" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="209" standardSortMethod="true" stopSoundsOnStartup="true" title="" v="209">
+            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="false" zoomFactor="1.090000" />
+            <objectsGroups />
+            <variables />
+            <instances>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="Bg" width="0.000000" x="0.000000" y="0.000000" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="226.000000" layer="" locked="false" name="Story" width="758.000000" x="22.000000" y="77.000000" zOrder="2">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="back" width="0.000000" x="296.000000" y="493.000000" zOrder="3">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+            </instances>
+            <objects>
+                <object bottomMargin="0.000000" height="600.000000" leftMargin="0.000000" name="Bg" rightMargin="0.000000" texture="bg10.jpg" tiled="true" topMargin="0.000000" type="PanelSpriteObject::PanelSprite" width="800.000000">
+                    <variables />
+                    <behaviors />
+                </object>
+                <object bold="false" italic="true" name="Story" smoothed="true" type="TextObject::Text" underlined="false">
+                    <variables />
+                    <behaviors />
+                    <string>Произошло это очень давно.&#x0A;Где-то далеко отсюда, некий чернокнижник уж больно распоясался,набеги на деревни совершал,людей похищал&#x0A;уже к городам стал подходить. Инквизиция посылала отряды инквизиторов в эти деревни, но сколько бы упырей и&#x0A;&quot;мертвецов&quot; они не убивали, всегда приходили новые. Чтобы прикрать это нужно было  добраться до самого Чернокнижника.&#x0A;И вот одному отряду удается узнать, где находится его замок: дремучий лес, куда не зайти большим отрядом, только по одному.&#x0A;Совет принимает решение отрравить туда одного инквизитора, в надежде что ему удаться отыскать замок и наконец изгнать Чернокнижника&#x0A;из этих земель...   &#x0A;</string>
+                    <font>19783.ttf</font>
+                    <characterSize>30</characterSize>
+                    <color b="255" g="255" r="255" />
+                </object>
+                <object name="back" type="Sprite" updateIfNotVisible="false">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="0.080000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="back.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="104.000000" y="34.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="208.000000" y="0.000000" />
+                                                    <vertice x="208.000000" y="69.000000" />
+                                                    <vertice x="0.000000" y="69.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
+            </objects>
+            <events>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <instruction>
+                            <type inverted="false" value="SourisSurObjet" />
+                            <parameters>
+                                <parameter>back</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subInstructions />
+                        </instruction>
+                        <instruction>
+                            <type inverted="false" value="SourisBouton" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>Left</parameter>
+                            </parameters>
+                            <subInstructions />
+                        </instruction>
+                    </conditions>
+                    <actions>
+                        <instruction>
+                            <type inverted="false" value="PushScene" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>&quot;Main menu&quot;</parameter>
+                            </parameters>
+                            <subInstructions />
+                        </instruction>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <instruction>
+                            <type inverted="false" value="AnyKeyPressed" />
+                            <parameters>
+                                <parameter></parameter>
+                            </parameters>
+                            <subInstructions />
+                        </instruction>
+                    </conditions>
+                    <actions>
+                        <instruction>
+                            <type inverted="false" value="AutoTyping::Text_AutoTyping::ChangeInterval" />
+                            <parameters>
+                                <parameter>Story</parameter>
+                                <parameter>Text_AutoTyping</parameter>
+                                <parameter>0</parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subInstructions />
+                        </instruction>
+                    </actions>
+                    <events />
+                </event>
+            </events>
+            <layers>
+                <layer name="" visibility="true">
+                    <cameras>
+                        <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
+                    </cameras>
+                    <effects />
+                </layer>
+            </layers>
+            <behaviorsSharedData />
+        </layout>
+        <layout b="209" disableInputWhenNotFocused="true" mangledName="Gameplay" name="Gameplay" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="209" standardSortMethod="true" stopSoundsOnStartup="true" title="" v="209">
+            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="false" zoomFactor="0.910000" />
+            <objectsGroups />
+            <variables />
+            <instances />
+            <objects />
+            <events />
+            <layers>
+                <layer name="" visibility="true">
+                    <cameras>
+                        <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
+                    </cameras>
+                    <effects />
+                </layer>
+            </layers>
+            <behaviorsSharedData />
+        </layout>
+    </layouts>
+    <externalEvents />
+    <externalLayouts />
+    <externalSourceFiles />
+</project>
